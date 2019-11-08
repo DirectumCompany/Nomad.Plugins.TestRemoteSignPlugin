@@ -1,0 +1,13 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <BuildDependsOn>PreventCopyLocal;$(BuildDependsOn)</BuildDependsOn>
+  </PropertyGroup>
+  <Target Name="PreventCopyLocal">
+    <ItemGroup>
+      <Reference Include="@(Reference)" Condition="
+                 $([System.String]::Copy('%(Reference.Identity)').StartsWith('Sungero'))">
+        <Private>False</Private>
+      </Reference>
+    </ItemGroup>
+  </Target>
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRemoteSignPlugin", "src\TestRemoteSignPlugin.csproj", "{C26A6294-B3F5-45F1-B4F9-CC06299A0707}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C26A6294-B3F5-45F1-B4F9-CC06299A0707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26A6294-B3F5-45F1-B4F9-CC06299A0707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26A6294-B3F5-45F1-B4F9-CC06299A0707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26A6294-B3F5-45F1-B4F9-CC06299A0707}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0FACB56-484C-408A-8134-7A9EA7DAEB35}
+	EndGlobalSection
+EndGlobal
